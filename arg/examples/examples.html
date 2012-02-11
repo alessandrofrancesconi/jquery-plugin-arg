@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="../jquery.arg.js"></script>
+		<link type="text/css" href="../arg.css" rel="stylesheet">
+		<style>
+			body {
+				margin: 10px;
+				padding: 0px;
+				font-family: Calibri, Verdana;
+				background-color: #276fa3;
+				font-size: 15px;
+				color: #ebf4fa;
+			}
+			
+			h1, h2 {
+				text-align: center;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #ebf4fa;
+			}
+			
+			img {
+				border: 0px;
+			}
+			
+			#footer {
+				font-size: 12px
+			}
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#example1").arg({
+					'folder' : 'examples/my_albums',
+					'galleryTitle' : 'Example gallery'
+				});
+				
+				$("#example2").arg({
+					'folder' : 'examples/my_albums',
+					'galleryTitle' : 'Second gallery',
+					'backgroundColor' : '#e2e3c6',
+					'navigatorColor' : '#9f3333',
+					'galleryFont' : 'MV Boli',
+					'randomShowcase' : false
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<h1><a href="http://www.alessandrofrancesconi.it/projects/arg" target="_blank"><img src="../arg_graphics/arg_logo.png" alt="" /></a><br />Few ARG! Automatic Rapid Gallery! examples</h1>
+		<h2>(NOTE: You must run this page in your local or remote PHP5 server to let it work)</h2>
+		
+		<b>Example 1</b>: A very basic gallery. Note that the size of the div is specificed inside his HTML tag.<br /><br />
+		<div id="example1" style="margin: 0px auto; width: 600px; height: 300px"></div>
+		<br />
+		<b>Example 2</b>: A full-width gallery that uses the same pictures path of the previous. This time with different colors, font ("MV Boli") and without randomized pictures in Home (refresh the page and see the difference).<br /> <br />
+		<div id="example2" style="margin: 0px auto; width: 100%; height: 250px"></div>
+		<br />
+		<div id="footer"><a href="http://www.alessandrofrancesconi.it/projects/arg" target="_blank">ARG! Automatic Rapid Gallery!<br />by Alessandro Francesconi</a></div>
+	</body>
+</html>
