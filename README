@@ -1,5 +1,6 @@
 ARG! Automatic Rapid Gallery!
 jQuery plugin for creating galleries from multiple image folders
+by Alessandro Francesconi
 --------------------------------
 
 ARG! Automatic Rapid Gallery! is a jQuery plugin that reads folders containing photos from a given location and shows them as navigable albums, with a simple but eye-candy interface... not Flash, but Javascript and PHP! 

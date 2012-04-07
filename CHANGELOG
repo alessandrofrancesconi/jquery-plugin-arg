@@ -1,0 +1,28 @@
+ARG! Automatic Rapid Gallery!
+jQuery plugin for creating galleries from multiple image folders
+http://www.alessandrofrancesconi.it/projects/arg
+------
+
+Changelog:
+
+2.0:
+ - Totally rewritten thumbnails generation process: no more need of "Check Thumbnails" button, missing or outdated thumbs are checked and (in case) automatically created everytime an album is opened
+ - Better and fairer thumbnails visualization: image boxes are at the same size, as specified with thumbWidth and thumbHeight
+ - Better handling of settings when page contains two or more frames
+ - Fixed a bug when calling closeNavigator()
+ - Nicer example page
+ - Little code/css cleaning
+
+1.2:	
+ - Added galleryTitleColor and galleryFont customizations
+ - Fixed About Window colours inheriting effect
+ - Little code/css cleaning
+
+1.1:	
+ - Supports jQuery from 1.4.3 version
+ - Better layout of images that aren't loaded yet
+ - Border color changes when mouse enters for images previews too, not for albums previews only.
+ - Better check button, arg_wait.gif and arg_loading_small.gif graphic
+
+1.0: 
+ - Initial release
